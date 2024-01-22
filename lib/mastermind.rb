@@ -1,2 +1,5 @@
 require 'stringio'
+require 'set'
+require_relative 'mastermind/color_generator'
 require_relative 'mastermind/game'
+require_relative 'mastermind/color_generator'
