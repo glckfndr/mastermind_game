@@ -95,7 +95,8 @@ RSpec.configure do |config|
   # as the one that triggered the failure.
 
 =end
-  config.order = :random
-  config.disable_monkey_patching!
-  Kernel.srand config.seed
+  #config.order = :random
+  #config.disable_monkey_patching!
+  #Kernel.srand config.seed
 end
+require_relative '../lib/mastermind'
